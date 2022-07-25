@@ -7,16 +7,16 @@ const singleTone = (function() {
 
     function init() {
         function privateMethod() {
-            console.log('I am private');
+            console.log("I am private");
         }
 
-        let privateVariable = 'I am also private';
+        let privateVariable = "I am also private";
 
         return {
             publicMethod: function() {
-                console.log('public Mentod');
+                console.log("public Mentod");
             },
-            publicProperty: 'public Property',
+            publicProperty: "public Property",
         };
     }
 
