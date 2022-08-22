@@ -3,7 +3,6 @@
 // 위장 (프로그래머스)
 // ABC + AB + AC + BC + A + B + C => (A + 1)(B + 1)(C + 1) - 1
 function solution(clothes) {
-
     let answer = 1;
     let obj = {};
 
@@ -20,7 +19,6 @@ function solution(clothes) {
 
 // 개선된 함수
 function improvedSolution(clothes) {
-
     return Object.values(clothes.reduce((obj, t)=> {
 		obj[t[1]] = obj[t[1]] ? obj[t[1]] + 1 : 1;
 

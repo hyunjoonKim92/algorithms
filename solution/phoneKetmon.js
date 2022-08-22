@@ -2,7 +2,6 @@
 
 // 폰켓몬 (프로그래머스)
 function solution(nums) {
-
     let answer = 1;
     let compare = [...new Set(nums)];
 

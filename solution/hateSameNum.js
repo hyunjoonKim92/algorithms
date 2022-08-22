@@ -20,6 +20,5 @@ function solution(arr) {
 
 // 개선된 함수
 function improvedSolution(arr) {
-
     return arr.filter((elem, index) => elem !== arr[index + 1]);
 }

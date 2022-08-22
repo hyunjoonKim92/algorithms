@@ -3,7 +3,6 @@
 // 다트 게임 (프로그래머스)
 // 테스트 케이스 일부 통과 실패
 function solution(dartResult) {
-
     let answer = 0;
     let score = [];
     let bonus = [];
@@ -97,7 +96,6 @@ function solution(dartResult) {
 
 // 개선된 함수 1
 function improvedSolution1(dartResult) {
-
     let score = 0;
     let cnt = [];
 
@@ -123,7 +121,6 @@ function improvedSolution1(dartResult) {
 
 // 개선된 함수 2
 function improvedSolution2(dartResult) {
-
     let num = 0;
     let answer = [];
     let temp = 0;

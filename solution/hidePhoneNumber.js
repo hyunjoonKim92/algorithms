@@ -2,7 +2,6 @@
 
 // 핸드폰 번호 가리기 (프로그래머스)
 function solution(phone_number) {
-
     let answer = '';
     let slice_number_for_star = '';
     let slice_nubmer_for_origin = phone_number.substr(phone_number.length - 4, phone_number.length);

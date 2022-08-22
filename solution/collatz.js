@@ -5,7 +5,6 @@
 let c = -1;
 
 function solution(num) {
-
     let answer = 0;
     let cnt = 0;
 
@@ -19,7 +18,6 @@ function solution(num) {
 }
 
 function recursionFunc(num, cnt) {
-
     cnt++;
     c++;
 
@@ -36,7 +34,6 @@ function recursionFunc(num, cnt) {
 
 // 개선된 함수
 function improvedSolution(num) {
-
     let answer = 0;
 
     while (num !== 1 && answer !== 500) {
