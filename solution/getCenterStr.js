@@ -1,4 +1,4 @@
-"ust strict"
+"use strict"
 
 // 가운데 글자 가져오기 (프로그래머스)
 function solution(s) {
