@@ -2,33 +2,32 @@
 
 // 싱글톤 패턴
 const singleTone = (function() {
+	let instance;
 
-    let instance;
+	function init() {
+		function privateMethod() {
+			console.log("I am private");
+		}
 
-    function init() {
-        function privateMethod() {
-            console.log("I am private");
-        }
+		let privateVariable = "I am also private";
 
-        let privateVariable = "I am also private";
+		return {
+			publicMethod: function() {
+				console.log("public Mentod");
+			},
+			publicProperty: "public Property",
+		};
+	}
 
-        return {
-            publicMethod: function() {
-                console.log("public Mentod");
-            },
-            publicProperty: "public Property",
-        };
-    }
+	return {
+		getInstance: function() {
+			if (!instance) {
+				instance = init();
+			}
 
-    return {
-        getInstance: function() {
-            if (!instance) {
-                instance = init();
-            }
-
-            return instance;
-        }
-    }
+			return instance;
+		}
+	}
 })();
 
 const first = singleTone.getInstance();

@@ -2,41 +2,41 @@
 
 // 옵저버 패턴
 class Subject {
-    constructor() {
-        this.observers = [];
-    }
+	constructor() {
+		this.observers = [];
+	}
 
-    getObserversList() {
-        return this.observers;
-    }
+	getObserversList() {
+		return this.observers;
+	}
 
-    subscribe(observer) {
-        this.observers.push(observer);
-    }
+	subscribe(observer) {
+		this.observers.push(observer);
+	}
 
-    unsubscribe(observer) {
-        this.observers = this.observers.filter((obs) => obs !== observer);
-    }
+	unsubscribe(observer) {
+		this.observers = this.observers.filter((obs) => obs !== observer);
+	}
 
-    notifyAll() {
-        this.observers.forEach((subscriber) => {
-            try {
-                subscriber.update(this.constructor.name);
-            } catch (err) {
-                console.error("error", err);
-            }
-        });
-    }
+	notifyAll() {
+		this.observers.forEach((subscriber) => {
+			try {
+				subscriber.update(this.constructor.name);
+			} catch (err) {
+				console.error("error", err);
+			}
+		});
+	}
 }
 
 class Observer {
-    constructor(name) {
-        this.name = name;
-    }
+	constructor(name) {
+		this.name = name;
+	}
 
-    update(subj) {
-        console.log(`${this.name}: notified from ${subj} class!`);
-    }
+	update(subj) {
+		console.log(`${this.name}: notified from ${subj} class!`);
+	}
 }
 
 const subj = new Subject();
