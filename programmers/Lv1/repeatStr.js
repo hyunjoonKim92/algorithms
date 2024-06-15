@@ -1,6 +1,6 @@
 "use strict"
 
-// 수박수박수박수... (프로그래머스)
+// 수박수박수박수... - 프로그래머스
 function solution(n) {
     let answer = "";
 
@@ -11,7 +11,7 @@ function solution(n) {
     return answer;
 }
 
-// improved fun
+// improved func
 function improvedSolution(n) {
     return "수박".repeat(n).slice(0, n);
 }

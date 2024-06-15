@@ -1,6 +1,6 @@
 "use strict"
 
-// 완주하지 못한 선수 (프로그래머스)
+// 완주하지 못한 선수 - 프로그래머스
 // 해시, for .. in / for .. of 차이 => 객체 순환, 배열 순환
 function solution(participant, completion) {
     let answer = "";

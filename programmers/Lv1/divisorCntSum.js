@@ -1,6 +1,6 @@
 "use strict"
 
-// 약수의 개수와 덧셈 (프로그래머스)
+// 약수의 개수와 덧셈 - 프로그래머스
 function solution(left, right) {
     var answer = 0;
     let numbers = [];
@@ -31,7 +31,7 @@ function solution(left, right) {
     return answer;
 }
 
-// improved fun
+// improved func
 function improvedSolution(left, right) {
     let answer = 0;
 

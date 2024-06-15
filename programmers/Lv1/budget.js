@@ -1,6 +1,6 @@
 "use strict"
 
-// 예산 (프로그래머스)
+// 예산 - 프로그래머스
 function solution(d, budget) {
     let answer = 0;
     let sum = 0;

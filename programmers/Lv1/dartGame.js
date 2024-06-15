@@ -1,6 +1,6 @@
 "use strict"
 
-// 다트 게임 (프로그래머스)
+// 다트 게임 - 프로그래머스
 // 테스트 케이스 일부 통과 실패
 function solution(dartResult) {
     let answer = 0;
@@ -94,7 +94,7 @@ function solution(dartResult) {
     return answer;
 }
 
-// improved fun 1
+// improved func 1
 function improvedSolution1(dartResult) {
     let score = 0;
     let cnt = [];
@@ -119,7 +119,7 @@ function improvedSolution1(dartResult) {
     return cnt.reduce((acc, cur) => acc + cur, 0);
 }
 
-// improved fun 2
+// improved func 2
 function improvedSolution2(dartResult) {
     let num = 0;
     let answer = [];

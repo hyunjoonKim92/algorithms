@@ -1,6 +1,6 @@
 "use strict"
 
-// 약수의 합 (프로그래머스)
+// 약수의 합 - 프로그래머스
 function solution(n) {
     let answer = 0;
 

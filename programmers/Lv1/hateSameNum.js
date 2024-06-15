@@ -1,6 +1,6 @@
 "use strict"
 
-// 같은 숫자는 싫어 (프로그래머스)
+// 같은 숫자는 싫어 - 프로그래머스
 function solution(arr) {
 
     let answer = [];
@@ -18,7 +18,7 @@ function solution(arr) {
     return answer;
 }
 
-// improved fun
+// improved func
 function improvedSolution(arr) {
     return arr.filter((elem, index) => elem !== arr[index + 1]);
 }

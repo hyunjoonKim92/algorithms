@@ -1,6 +1,6 @@
 "use strict"
 
-// 하샤드 수 (프로그래머스)
+// 하샤드 수 - 프로그래머스
 function solution(x) {
     let answer = true;
     let sum = 0;

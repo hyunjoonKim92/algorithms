@@ -1,6 +1,6 @@
 "use strict"
 
-// 음양 더하기 (프로그래머스)
+// 음양 더하기 - 프로그래머스
 function solution(absolutes, signs) {
     let sum = 0;
 
@@ -15,7 +15,7 @@ function solution(absolutes, signs) {
     return sum;
 }
 
-// improved fun
+// improved func
 function improvedSolution(absolutes, signs) {
   return absolutes.reduce((acc, val, i) => acc + (val * (signs[i] ? 1 : -1)), 0);
 }

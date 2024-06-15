@@ -1,6 +1,6 @@
 "use strict"
 
-// 비밀 지도 (프로그래머스)
+// 비밀 지도 - 프로그래머스
 function solution(n, arr1, arr2) {
     let answer = [];
     let map = Array.from(Array(n), () => new Array(n).fill(0));

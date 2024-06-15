@@ -1,6 +1,6 @@
 "use strict"
 
-// 로또의 최고 순위와 최저 순위 (프로그래머스)
+// 로또의 최고 순위와 최저 순위 - 프로그래머스
 function solution(lottos, win_nums) {    
   const zeroLen = lottos.filter(num => num === 0).length;
   const matchLen = [...new Set(lottos.filter(el => win_nums.includes(el)))].length;

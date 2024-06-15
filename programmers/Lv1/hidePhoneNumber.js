@@ -1,6 +1,6 @@
 "use strict"
 
-// 핸드폰 번호 가리기 (프로그래머스)
+// 핸드폰 번호 가리기 - 프로그래머스
 function solution(phone_number) {
     let answer = '';
     let slice_number_for_star = '';

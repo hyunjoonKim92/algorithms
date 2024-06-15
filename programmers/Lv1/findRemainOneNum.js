@@ -1,6 +1,6 @@
 "use strict"
 
-// 나머지가 1이 되는 수 찾기 (프로그래머스)
+// 나머지가 1이 되는 수 찾기 - 프로그래머스
 function solution(n) {
     let divisorArr = [];
 
@@ -13,7 +13,7 @@ function solution(n) {
     return Math.min(...divisorArr);
 }
 
-// improved fun
+// improved func
 function improvedSolution(n, x = 1) {
     while (x++) {
         if (n % x === 1) {

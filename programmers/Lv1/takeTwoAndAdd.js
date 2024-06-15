@@ -1,6 +1,6 @@
 "use strict"
 
-// 두 개 뽑아서 더하기 (프로그래머스)
+// 두 개 뽑아서 더하기 - 프로그래머스
 function solution(numbers) {
     let answer = [];
 
@@ -19,7 +19,7 @@ function solution(numbers) {
     return answer;
 }
 
-// improved fun
+// improved func
 // Set 객체 사용하여 중복 제거
 function improvedSolution(numbers) {
     const temp = [];

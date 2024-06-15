@@ -1,6 +1,6 @@
 "use strict"
 
-// 모의고사 (프로그래머스)
+// 모의고사 - 프로그래머스
 function solution(answers) {
     let answer = [];
 

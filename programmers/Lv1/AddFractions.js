@@ -1,6 +1,6 @@
 "use strict"
 
-// 분수의 덧셈 (프로그래머스)
+// 분수의 덧셈 - 프로그래머스
 function calulateGCD(a, b) {
     return a % b === 0 ? b : calulateGCD(b, a % b);
 }

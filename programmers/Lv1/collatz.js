@@ -1,6 +1,6 @@
 "use strict"
 
-// 콜라츠 추측 (프로그래머스)
+// 콜라츠 추측 - 프로그래머스
 
 let c = -1;
 
@@ -32,7 +32,7 @@ function recursionFunc(num, cnt) {
     }
 }
 
-// improved fun
+// improved func
 function improvedSolution(num) {
     let answer = 0;
 

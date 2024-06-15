@@ -1,6 +1,6 @@
 "use strict"
 
-// 시저 암호 (프로그래머스)
+// 시저 암호 - 프로그래머스
 function solution(s, n) {
     return s.split("").map(item => {
         if (item === " ") {

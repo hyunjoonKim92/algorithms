@@ -1,6 +1,6 @@
 "use strict"
 
-// 소수 만들기 (프로그래머스)
+// 소수 만들기 - 프로그래머스
 function solution(nums) {
     let answer = 0;
 

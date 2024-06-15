@@ -1,6 +1,6 @@
 "use strict"
 
-// 문자열 다루기 기본 (프로그래머스)
+// 문자열 다루기 기본 - 프로그래머스
 function solution(s) {
     let answer = true;
 
