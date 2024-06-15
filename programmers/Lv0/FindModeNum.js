@@ -1,6 +1,6 @@
 "use strict";
 
-// 최빈값 구하기 (프로그래머스)
+// 최빈값 구하기 - 프로그래머스
 function solution(array) {
     let map = new Map();
 

@@ -1,6 +1,6 @@
 "use strict"
 
-// 옹알이 (프로그래머스)
+// 옹알이 - 프로그래머스
 function solution(babbling) {
     let answer = 0;
 

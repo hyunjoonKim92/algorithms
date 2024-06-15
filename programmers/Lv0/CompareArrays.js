@@ -1,6 +1,6 @@
 "use strict"
 
-// 배열 비교하기 (프로그래머스)
+// 배열 비교하기 - 프로그래머스
 function solution(arr1, arr2) {
     let answer = 0;
 

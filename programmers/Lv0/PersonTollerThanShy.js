@@ -1,6 +1,6 @@
 "use strict"
 
-// 머쓱이보다 키 큰 사람 (프로그래머스)
+// 머쓱이보다 키 큰 사람 - 프로그래머스
 function solution(array, height) {
     let answer = 0;
 
@@ -13,7 +13,7 @@ function solution(array, height) {
     return answer;
 }
 
-// improved fun
+// improved func
 function improvedSolution(array, height) {
     let answer = array.filter(item => item > height);
 

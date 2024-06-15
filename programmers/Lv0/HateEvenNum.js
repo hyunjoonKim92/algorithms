@@ -1,6 +1,6 @@
 "use strict";
 
-// 짝수는 싫어요 (프로그래머스)
+// 짝수는 싫어요 - 프로그래머스
 function solution(n) {
     let result = [];
 
@@ -13,7 +13,7 @@ function solution(n) {
     return result;
 }
 
-// improved fun
+// improved func
 function improvedSoluction(n) {
     return Array(n).fill(1).map((v, i) => v + i).filter(v => v % 2 === 1);
 }

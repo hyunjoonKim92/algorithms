@@ -1,6 +1,6 @@
 "use strict"
 
-// 뒤에서 5등까지 (프로그래머스)
+// 뒤에서 5등까지 - 프로그래머스
 function solution(num_list) {
     let answer = [];
 
@@ -15,7 +15,7 @@ function solution(num_list) {
     return answer;
 }
 
-// improved fun
+// improved func
 function improvedSolution(num_list) {
     return [...num_list].sort((a, b) => a - b).slice(0, 5);
 }

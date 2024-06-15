@@ -11,7 +11,7 @@ function solution(n) {
     }
 }
 
-// improved fun
+// improved func
 function improvedSoluction(n) {
     return Math.ceil(n / 7);
 }

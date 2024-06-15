@@ -11,7 +11,7 @@ function solution(my_string, n) {
     return strArr.join("");
 }
 
-// improved fun
+// improved func
 function improvedSolution(my_string, n) {
     return [...my_string].map(val => val.repeat(n)).join("");
 }

@@ -13,7 +13,7 @@ function solution(numbers) {
     return result.toFixed(1);
 }
 
-// improved fun
+// improved func
 function improvedSoluction(numbers) {
     return numbers.reduce((acc, cur) => acc + cur) / numbers.length;
 }
