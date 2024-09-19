@@ -1,6 +1,10 @@
 'use strict';
 
-// 가위 바위 보 - 프로그래머스
+/**
+ * 가위 바위 보 - 프로그래머스
+ * @param {rsp} rock(바위), paper(보), scissor(가위)
+ * @returns {string}
+ */
 function solution(rsp) {
     let answer = '';
 
@@ -21,7 +25,10 @@ function solution(rsp) {
     return answer;
 }
 
-// improved func
+/**
+ * improved func
+ * @description 객체 활용
+ */
 function improvedSoluction(rsp) {
     let answer = {
         2: 0,
