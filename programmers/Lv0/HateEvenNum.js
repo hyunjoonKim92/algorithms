@@ -1,6 +1,10 @@
 "use strict";
 
-// 짝수는 싫어요 - 프로그래머스
+/**
+ * 짝수는 싫어요
+ * @param {number} n - 정수
+ * @returns {Array<number>}
+ */
 function solution(n) {
     let result = [];
 
@@ -13,7 +17,10 @@ function solution(n) {
     return result;
 }
 
-// improved func
+/**
+ * improved func
+ * @description map, filter 로 함수 간소화
+ */
 function improvedSoluction(n) {
     return Array(n).fill(1).map((v, i) => v + i).filter(v => v % 2 === 1);
 }

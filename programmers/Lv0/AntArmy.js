@@ -1,6 +1,10 @@
-"use strict"
+"use strict";
 
-// 개미 군단 - 프로그래머스
+/**
+ * 개미 군단
+ * @param {number} hp - 개미 체력
+ * @returns {number}
+ */
 function solution(hp) {
     const generalAntDamage = 5;
     const soldierAntDamage = 3;
@@ -19,7 +23,10 @@ function solution(hp) {
     return generalAnt + soldierAnt + eragte;
 }
 
-// improved func
+/**
+ * improved func
+ * @description 불필요한 변수 사용하지 않고 수식화
+ */
 function improvedSolution(hp) {
     return Math.floor(hp / 5) + Math.floor((hp % 5) / 3 + (hp % 5) % 3);
 }

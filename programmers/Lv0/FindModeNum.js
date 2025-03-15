@@ -1,6 +1,10 @@
 "use strict";
 
-// 최빈값 구하기 - 프로그래머스
+/**
+ * 최빈값 구하기
+ * @param {Array<number>} array - 정수 배열
+ * @returns {number}
+ */
 function solution(array) {
     let map = new Map();
 

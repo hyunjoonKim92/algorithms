@@ -1,6 +1,8 @@
 "use strict";
 
-// 직각삼각형 출력 - 프로그래머스
+/**
+ * 직각삼각형 출력하기
+ */
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,

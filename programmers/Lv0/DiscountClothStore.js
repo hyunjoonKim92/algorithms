@@ -1,6 +1,10 @@
 "use strict";
 
-// 옷가게 할인 받기 - 프로그래머스
+/**
+ * 옷가게 할인 받기
+ * @param {number} price - 옷 가격
+ * @returns {number}
+ */
 function solution(price) {
     let result = 0;
 

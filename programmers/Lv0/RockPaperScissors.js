@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
 /**
- * 가위 바위 보 - 프로그래머스
- * @param {rsp} rock(바위), paper(보), scissor(가위)
+ * 가위 바위 보
+ * @param {string} rsp - rock(바위), scissor(가위), paper(보)
  * @returns {string}
  */
 function solution(rsp) {
@@ -27,7 +27,7 @@ function solution(rsp) {
 
 /**
  * improved func
- * @description 객체 활용
+ * @description object, map 으로 함수 간소화
  */
 function improvedSoluction(rsp) {
     let answer = {

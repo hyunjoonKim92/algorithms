@@ -1,6 +1,10 @@
 "use strict";
 
-// 짝수 홀수 갯수 - 프로그래머스
+/**
+ * 짝수 홀수 갯수
+ * @param {Array<number>} num_list - 정수 배열
+ * @returns {Array<number>}
+ */
 function solution(num_list) {
     let odd_num = 0;
     let even_num = 0;

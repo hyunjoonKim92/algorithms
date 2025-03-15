@@ -1,6 +1,10 @@
 "use strict"
 
-// 옹알이 - 프로그래머스
+/**
+ * 옹알이
+ * @param {string} babbling - 옹알이 문자열
+ * @returns {number}
+ */
 function solution(babbling) {
     let answer = 0;
 

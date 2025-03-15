@@ -1,6 +1,10 @@
 "use strict";
 
-// 피자 나눠 먹기 (1) - 프로그래머스
+/**
+ * 피자 나눠 먹기 (1)
+ * @param {number} n - 피자 먹는 사람
+ * @returns {number}
+ */
 function solution(n) {
     const num = n / 7;
 
@@ -11,7 +15,10 @@ function solution(n) {
     }
 }
 
-// improved func
+/**
+ * improved func
+ * @description Math.ceil() 로 함수 간소화
+ */
 function improvedSoluction(n) {
     return Math.ceil(n / 7);
 }

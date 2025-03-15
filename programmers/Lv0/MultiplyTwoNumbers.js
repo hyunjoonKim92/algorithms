@@ -1,6 +1,11 @@
-"use strict"
+"use strict";
 
-// 두 수의 곱 - 프로그래머스
+/**
+ * 두 수의 곱
+ * @param {number} num1 - 첫번째 정수
+ * @param {number} num2 - 두번째 정수
+ * @returns {number}
+ */
 function solution(num1, num2) {
     if (num1 < 0 && num1 > 100) return;
     if (num2 < 0 && num2 > 100) return;

@@ -1,6 +1,11 @@
-"use strict"
+"use strict";
 
-// 머쓱이보다 키 큰 사람 - 프로그래머스
+/**
+ * 머쓱이보다 키 큰 사람
+ * @param {Array<number>} array - 키가 담긴 정수 배열
+ * @param {number} height - 키
+ * @returns {number}
+ */
 function solution(array, height) {
     let answer = 0;
 
@@ -13,9 +18,10 @@ function solution(array, height) {
     return answer;
 }
 
-// improved func
+/**
+ * improved func
+ * @description filter 로 함수 간소화
+ */
 function improvedSolution(array, height) {
-    let answer = array.filter(item => item > height);
-
-    return answer.length;
+    return array.filter(item => item > height).length;
 }

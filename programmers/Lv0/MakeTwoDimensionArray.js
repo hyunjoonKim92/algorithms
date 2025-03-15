@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
 /**
- * 2차원으로 만들기 - 프로그래머스
- * @param {num_list} 1차원 배열
- * @param {n} 2차원 배열로 나눌 수
- * @returns {Array}
+ * 2차원으로 만들기
+ * @param {Array<number>} num_list - 1차원 배열
+ * @param {number} n - 2차원 배열로 나눌 수
+ * @returns {Array<Array<number>>}
  */
 function solution(num_list, n) {
     let arr = [];

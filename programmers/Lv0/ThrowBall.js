@@ -1,6 +1,11 @@
-'use strict'
+"use strict";
 
-// 프로그래머스 - 공 던지기
+/**
+ * 공 던지기
+ * @param {Array<number>} numbers - 정수 배열
+ * @param {number} k - 공 던지는 사람의 index
+ * @returns {number}
+ */
 function solution(numbers, k) {
     let pointer = 1;
 
@@ -15,7 +20,10 @@ function solution(numbers, k) {
     return pointer;
 }
 
-// improved func
+/**
+ * improved func
+ * @description 문제풀이 간소화
+ */
 function improvedSoluction(numbers, k) {
     return numbers[((k - 1) * 2) % numbers.length];
 }

@@ -1,6 +1,10 @@
-'use strict';
+"use strict";
 
-// 모스부호(1) - 프로그래머스
+/**
+ * 모스부호(1)
+ * @param {string} letter - 문자열
+ * @returns {string}
+ */
 function solution(letter) {
     const morse = { 
         '.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f',

@@ -1,6 +1,10 @@
 "use strict";
 
-// 각도기 - 프로그래머스
+/**
+ * 각도기
+ * @param {number} angle - 각도
+ * @returns {number}
+ */
 function solution(angle) {
     switch(angle) {
         case 90:

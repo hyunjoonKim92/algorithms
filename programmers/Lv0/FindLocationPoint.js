@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
 /**
- * 점의 위치 구하기 - 프로그래머스
- * @param {dot} 배열로 이루어진 점 
+ * 점의 위치 구하기
+ * @param {dot} 배열로 이루어진 점
  * @returns {number}
  */
 function solution(dot) {

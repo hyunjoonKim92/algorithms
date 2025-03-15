@@ -1,6 +1,11 @@
-"use strict"
+"use strict";
 
-// 배열 비교하기 - 프로그래머스
+/**
+ * 배열 비교하기
+ * @param {Array<number>} arr1 - 비교할 첫번째 배열
+ * @param {Array<number>} arr2 - 비교할 두번째 배열
+ * @returns {number}
+ */
 function solution(arr1, arr2) {
     let answer = 0;
 

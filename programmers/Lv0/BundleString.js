@@ -1,6 +1,10 @@
-"use strict"
+"use strict";
 
-// 문자열 묶기 - 프로그래머스
+/**
+ * 문자열 묶기
+ * @param {Array<string>} strArr - 문자열 배열
+ * @returns {number}
+ */
 function solution(strArr) {
     const diction = {};
 
